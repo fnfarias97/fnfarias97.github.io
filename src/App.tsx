@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/Sidebar/Sidebar'
+// import {useDarkMode} from './components/useDarkMode'
 
 function App() {
+  // const [theme, toggleTheme] = useDarkMode();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-white dark:bg-gray-900 flex">
+      <Sidebar />
+      <h1 className="text-red-500">Holaaa</h1>
+      {/* <button onClick={() => toggleTheme}>Toggle Dark Mode</button> */}
+
+
     </div>
   );
 }
