@@ -1,20 +1,19 @@
 import React from 'react';
 import './App.css';
+
+import HeroProvider from './context/HeroContext'
+
+import Main from './components/Main/Main';
 import Sidebar from './components/Sidebar/Sidebar'
-// import {useDarkMode} from './components/useDarkMode'
 
 function App() {
-  // const [theme, toggleTheme] = useDarkMode();
 
-  return (
+  return (<HeroProvider>
     <div className="bg-white dark:bg-gray-900 flex">
       <Sidebar />
-      <h1 className="text-red-500">Holaaa</h1>
-      {/* <button onClick={() => toggleTheme}>Toggle Dark Mode</button> */}
-
-
+      <Main />
     </div>
-  );
+  </HeroProvider>);
 }
 
 export default App;

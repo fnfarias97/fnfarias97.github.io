@@ -1,9 +1,8 @@
 import * as React from 'react';
+import { useHero } from '../../context/HeroContext'
 import profilePic from '../../images/fer-profile.jpeg'
 import Navbar from './Navbar'
 import Footer from './Footer'
-
-let fullName = "Fernando Farias"
 
 let navItems = [{
     title: "Inicio",
@@ -24,19 +23,22 @@ let navItems = [{
 
 
 function Sidebar() {
-    return (<div className="h-screen w-1/5 bg-gray-700">
+
+    const hero = useHero();
+
+    return (<div className="h-screen w-1/5 bg-white dark:bg-gray-700 fixed p-5">
         <img 
             src={profilePic} 
             alt="Fer profile"
             className="rounded-full"
             width="120px"
         />
-        <h1>{fullName}</h1>
+        <h1>{hero.fullName}</h1>
         <i className="fab fa-linkedin"></i>
         <i className="fab fa-github-square"></i>
 
         <Navbar navItems={navItems} />
-        <Footer fullName={fullName}/>
+        <Footer/>
     </div>)
 }
 
