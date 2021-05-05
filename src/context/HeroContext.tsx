@@ -1,10 +1,5 @@
 import React, { ReactElement, ReactNode, useContext, createContext }  from 'react';
-
-let hero = {
-    fullName:"Fernando Farias",
-    title: "Full Stack Developer",
-    stack: ["React", "Node", "MySQL", "Git", "GitHub", "HTML", "CSS"]
-}
+import hero from './hero.json'
 
 const HeroContext = createContext(hero);
 

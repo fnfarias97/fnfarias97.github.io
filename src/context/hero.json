@@ -1,0 +1,61 @@
+{
+    "fullName" :"Fernando Farias",
+    "title": "Full Stack Developer",
+    "avatar": "fer-profile.jpeg",
+    "skills": ["React", "Node","TypeScript", "MySQL", "Git", "GitHub", "HTML", "CSS Puro", "TailwindCss", "Bootstrap", "Inglés bilingüe", "Alemán básico", "Adobe Xd"],
+    "about": "Desarrollador web orientado a resultados con la aspiración de crear soluciones elegantes en el menor tiempo. Seguidor de comunidades de desarrollo web para mantenerme siempre actualizado.",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/fnfarias97/",
+        "github": "https://github.com/fnfarias97",
+        "email": "fnfarias97@gmail.com",
+        "location": "Buenos Aires, Argentina"
+    },
+    "resume": {
+        "education": [
+            {
+                "name": "Full Stack Developer",
+                "place": "Digital House",
+                "description": "Programa de especialización que, a través de teoría, práctica y trabajo en grupo provee las herramientas y el conocimiento más importantes para la industria del desarrollo web \n▪ Proyecto Integral: Plataforma de E-Commerce para la venta de Hardware.\n▪ Metodología de desarrollo: Agile/Scrum\n▪ Version Control: Git y Github\n▪ Server: NodeJS, Express\n▪ Databases: MySQL & Sequelize\n▪ Framework: React.js",
+                "dates": "Aug 2020 - Feb 2021"
+            },
+            {
+                "name": "Lic. en Economía",
+                "place": "Universidad de Buenos Aires", 
+                "description": "1 año completo",
+                "dates": "Aug 2017 - Nov 2018"
+            },
+            {
+                "name": "Lic. en Ciencia Política",
+                "place": "Universidad de Buenos Aires", 
+                "description": "3 año completo",
+                "dates": "Mar 2015 - Jun 2017"
+            }
+        ],
+        "profExp": [
+            {
+                "name": "Analista Financiero",
+                "place": "Accenture",
+                "description": "Proveer soporte financiero offshore para portfolio de clientes radicado en EEUU\n▪ Idioma manejado en la oficina: inglés\n▪ Gestión financiera end-to-end (manejo de oportunidades, presupuestos, forecasting) a diferentes proyectos dentro del portfolio y hacia varios líderes, entregando semanalmente reportes de la situación financiera de cada proyecto\n▪ Rol de liderazgo/supervisión de empleados nuevos. Transferencia de conocimientos y supervisión de tareas\n▪ Miembro de equipos internos de Automation & Design. Ayuda a colegas con la automatización de tareas repetitivas (usando Macros/VBA, Selenium) para mejorar la eficiencia y con la creación y mantenimiento de sitios internos (HTML, CSS & JavaScript)\n▪ Atendido a cursos de: React.js, Python, MySQL, AdobeXD, NewIT, UX/UI Principles, PowerBI, Comunicación Efectiva",
+                "dates": "Nov 2018 - Actual"
+            },
+            {
+                "name": "Camarero",
+                "place": "Café Urbano",
+                "description": "Manejo de sistema de ventas\n▪ Tomar órdenes de clientes",
+                "dates": "Jun 2018 - Oct 2018"
+            },
+            {
+                "name": "Asistente de Datos",
+                "place": "NS Consultores",
+                "description": "Almacenamiento de tickets de farmacias en software interno.",
+                "dates": "Ene 2018 - May 2018"
+            },
+            {
+                "name": "Responsable de Ventas y Facturación",
+                "place": "Importador Argentino",
+                "description": "Facturación AFIP\n▪ Manejo de ventas por Mercadolibre\n▪ Atención al Cliente (telefónica y presencial)\n▪ Creación de Banners con Photoshop CS5",
+                "dates": "Ene 2018 - May 2018"
+            }
+        ]
+    }
+}

@@ -9,7 +9,7 @@ import Sidebar from './components/Sidebar/Sidebar'
 function App() {
 
   return (<HeroProvider>
-    <div className="bg-white dark:bg-gray-900 flex">
+    <div className="bg-white dark:bg-gray-100 flex">
       <Sidebar />
       <Main />
     </div>

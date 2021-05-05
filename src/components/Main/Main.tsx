@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { useHero } from '../../context/HeroContext'
+import Content from './Content/Content';
 import Hero from './Hero';
-
-
 
 function Main() {
 
@@ -10,7 +9,16 @@ function Main() {
 
     return (<div className="w-4/5 ml-auto">
         <Hero/>
-        <h1>{hero.fullName}</h1>
+
+        <Content title="Sobre mí">
+            {hero.about}
+        </Content>
+        <Content title="Habilidades">
+            {hero.skills}
+        </Content>
+        <Content title="Currículum">
+            {/* {hero.resume} */}
+        </Content>
     </div>)
 }
 

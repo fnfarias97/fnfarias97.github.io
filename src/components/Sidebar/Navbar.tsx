@@ -10,9 +10,9 @@ type navItemsType = {
 function Navbar({
     navItems
 }: navItemsType) {
-    return (<ul>
+    return (<ul className="my-16">
         {navItems.map((item, index) => {
-            return <li key={index}>
+            return <li key={index} className="text-lg my-8 mx-4">
                 {item.title}
             </li>
         })}        
