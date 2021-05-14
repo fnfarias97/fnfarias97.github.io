@@ -11,7 +11,7 @@ function HeroProfile() {
         <img 
             src={profilePic} 
             alt="Fer profile"
-            className="rounded-full mx-auto border-8 border-gray-800 hover:border-gray-700"
+            className="rounded-full mx-auto border-8 border-gray-900 hover:border-gray-800"
             width="140px"
         />
         <h1 className="text-2xl my-2 font-bold text-white">{hero.fullName}</h1>

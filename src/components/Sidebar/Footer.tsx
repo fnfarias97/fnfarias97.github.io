@@ -6,7 +6,7 @@ function Footer() {
     const hero = useHero();
 
     return (<footer className="fixed bottom-0 left-0 p-4">
-        &copy; Copyright <span className="font-bold">{hero.fullName}</span>
+        &copy; Copyright <span className="font-bold text-white">{hero.fullName}</span>
     </footer>)
 }
 
