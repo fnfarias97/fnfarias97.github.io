@@ -19,7 +19,7 @@ let navItems = [{
 
 
 function Sidebar() {
-    return (<div className="h-screen w-1/5 bg-white dark:bg-gray-900 fixed p-5 text-white">
+    return (<div className="h-screen w-1/5 bg-white dark:bg-gray-900 fixed p-5 text-gray-400">
         <HeroProfile />
 
         <Navbar navItems={navItems} />

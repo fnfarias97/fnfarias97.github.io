@@ -1,0 +1,4 @@
+@keyframes slide {
+    0% {margin-top:-750px;}
+    100% {margin-top:40px;}
+  }

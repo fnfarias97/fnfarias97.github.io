@@ -11,13 +11,13 @@ function HeroProfile() {
         <img 
             src={profilePic} 
             alt="Fer profile"
-            className="rounded-full mx-auto border-8 border-gray-800"
+            className="rounded-full mx-auto border-8 border-gray-800 hover:border-gray-700"
             width="140px"
         />
-        <h1 className="text-2xl my-2 font-bold">{hero.fullName}</h1>
+        <h1 className="text-2xl my-2 font-bold text-white">{hero.fullName}</h1>
         <div className="flex justify-center gap-6 text-2xl my-2">
-            <a href={hero.social.linkedin}><i className="not-italic fab fa-linkedin"></i></a>
-            <a href={hero.social.github}><i className="not-italic fab fa-github-square"></i></a>
+            <a href={hero.social.linkedin}><i className="not-italic fab fa-linkedin hover:text-white"></i></a>
+            <a href={hero.social.github}><i className="not-italic fab fa-github-square hover:text-white"></i></a>
         </div>
     </div>)
 }
