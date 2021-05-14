@@ -1,5 +1,5 @@
 import * as React from 'react';
-import bgPic from '../../images/bg-light.jpg';
+import bgPic from '../../images/bg-dark.jpg';
 import './Hero.css'
 
 import { useHero } from '../../context/HeroContext';
@@ -24,10 +24,10 @@ function Hero() {
                     {hero.title}:
                     <div className="slider overflow-hidden h-10">
                         {hero.skills.map((item, index) => {
-                            index == 0?
+                            index === 0?
                             myAnimationStyle={animation:"slide 20s linear infinite"} :
                             myAnimationStyle={animation:""}
-                            
+
                             return <div 
                             className={`slider-text${index} px-4 mb-6`}
                             style={myAnimationStyle} 
